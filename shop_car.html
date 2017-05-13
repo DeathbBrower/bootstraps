@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+     minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/shops.css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="container-fluid leader">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 top1">
+                <a href="javascript:history.go(-1)">  <span class="glyphicon glyphicon-share-alt rotates"></span></a>  </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 top2">
+                    <p>订单支付</p></div>
+            </div>
+        </div>
+    </header>
+    <!--content-->
+    <main class="cart_m">
+        <div class="container-fluid cart_pro">
+            <div class="row">
+                <div class="col-xs-1 text-center">
+                    <input type="checkbox" class="sel_pro" />
+                </div>
+                <div class="col-xs-3 text-center">
+                    <a href="">
+                        <img src="img/ditan.jpg" class="img-thumbnail"/>
+                    </a>
+                </div>
+                <div class="col-xs-7">
+                    <div class="c_name">
+                        <a href="">
+                            <h5>供应批发 细节到位 品质优良 欢迎选购</h5>
+                        </a>
+                    </div>
+                    <div class="c_price">
+                        <i>¥</i><em class="unitPrice">50.00</em>
+                    </div>
+                    <div class="qty pull-left">
+                        <label class="pull-left">数量：</label>
+                        <span class="pull-left desc"><i class="glyphicon glyphicon-minus"></i></span>
+                        <input type="text" value="1" min="1" max="999" class="pull-left num"/>
+                        <span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+                    </div>
+                    <div class="count" style="display: none">¥<em class="tPrice">50.00</em></div>
+                </div>
+                <div class="col-xs-1 text-center del">
+                    <a href="javascript:void(0)">
+                        <em class="glyphicon glyphicon-trash"></em>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 text-center">
+                    <input type="checkbox" class="sel_pro" />
+                </div>
+                <div class="col-xs-3 text-center">
+                    <a href="">
+                        <img src="img/ditan.jpg" class="img-thumbnail"/>
+                    </a>
+                </div>
+                <div class="col-xs-7">
+                    <div class="c_name">
+                        <a href="">
+                            <h5>供应批发 细节到位 品质优良 欢迎选购</h5>
+                        </a>
+                    </div>
+                    <div class="c_price">
+                        <i>¥</i><em class="unitPrice">50.00</em>
+                    </div>
+                    <div class="qty pull-left">
+                        <label class="pull-left">数量：</label>
+                        <span class="pull-left desc"><i class="glyphicon glyphicon-minus"></i></span>
+                        <input type="text" value="1" min="1" max="999" class="pull-left num"/>
+                        <span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+                    </div>
+                    <div class="count" style="display: none">¥<em class="tPrice">50.00</em></div>
+                </div>
+                <div class="col-xs-1 text-center del">
+                    <a href="javascript:void(0)">
+                        <em class="glyphicon glyphicon-trash"></em>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 text-center">
+                    <input type="checkbox" class="sel_pro" />
+                </div>
+                <div class="col-xs-3 text-center">
+                    <a href="">
+                        <img src="img/ditan.jpg" class="img-thumbnail"/>
+                    </a>
+                </div>
+                <div class="col-xs-7">
+                    <div class="c_name">
+                        <a href="">
+                            <h5>供应批发 细节到位 品质优良 欢迎选购</h5>
+                        </a>
+                    </div>
+                    <div class="c_price">
+                        <i>¥</i><em class="unitPrice">100.00</em>
+                    </div>
+                    <div class="qty pull-left">
+                        <label class="pull-left">数量：</label>
+                        <span class="pull-left desc"><i class="glyphicon glyphicon-minus"></i></span>
+                        <input type="text" value="1" min="1" max="999" class="pull-left num"/>
+                        <span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+                    </div>
+                    <div class="count" style="display: none">¥<em class="tPrice">100.00</em></div>
+                </div>
+                <div class="col-xs-1 text-center del">
+                    <a href="javascript:void(0)">
+                        <em class="glyphicon glyphicon-trash"></em>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 text-center">
+                    <input type="checkbox" class="sel_pro" />
+                </div>
+                <div class="col-xs-3 text-center">
+                    <a href="">
+                        <img src="img/ditan.jpg" class="img-thumbnail"/>
+                    </a>
+                </div>
+                <div class="col-xs-7">
+                    <div class="c_name">
+                        <a href="">
+                            <h5>供应批发 细节到位 品质优良 欢迎选购</h5>
+                        </a>
+                    </div>
+                    <div class="c_price">
+                        <i>¥</i><em class="unitPrice">100.00</em>
+                    </div>
+                    <div class="qty pull-left">
+                        <label class="pull-left">数量：</label>
+                        <span class="pull-left desc"><i class="glyphicon glyphicon-minus"></i></span>
+                        <input type="text" value="1" min="1" max="999" class="pull-left num"/>
+                        <span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+                    </div>
+                    <div class="count" style="display: none">¥<em class="tPrice">100.00</em></div>
+                </div>
+                <div class="col-xs-1 text-center del">
+                    <a href="javascript:void(0)">
+                        <em class="glyphicon glyphicon-trash"></em>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="c_bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4 text-right">
+                        <label>支付：</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <div class="payment">微信支付</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c_bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4 text-right">
+                        <label>优惠：</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <select class="form-control">
+                            <option value="未使用">未使用</option>
+                            <option value="使用中">使用中</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c_bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4 text-right">
+                        <label>使用积分：</label>
+                    </div>
+                    <div class="col-xs-8 jf">
+                        <input type="text" class="form-control" placeholder="请输入您的积分数"/><em>分</em>
+                        <p>(100积分可抵扣1.00元，您有0积分，本次最多可使用0积分)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c_bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4 text-right">
+                        <label>留言：</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <textarea class="form-control" placeholder="请输入留言信息"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!---->
+    <footer>
+        <nav class="navbar navbar-fixed-bottom shop_foot">
+        <div class=" container-fluid ">
+            <div class="row">
+                <div class="col-xs-2">
+                    <label><input type="checkbox" class="chooseAll"/>全选</label>
+                </div>
+                <div class="col-xs-6 sub_price text-center">
+                    <i>¥</i><em>0.00</em>
+                </div>
+                <div class="col-xs-4 cart_btn text-center">
+                    <a href="shop_pay.html">立即付款</a>
+                </div>
+
+            </div>
+        </div>
+            </nav>
+    </footer>
+    <div class="return_top">
+        <a href="javascript:scrollTo(0,0)">
+            <span class="glyphicon glyphicon-arrow-up"></span>
+        </a>
+
+    </div>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sea.js"></script>
+    <!--chajian-->
+    <script type="text/javascript" src="js/canvas-nest.min.js"></script>
+    <canvas height="926" width="1920"
+            style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;" id="c_n1">
+    </canvas>
+    <!--配置-->
+    <script>
+        seajs.config({
+            base:'./js/',
+            alias:{
+                'jq':'jquery-1.12.3.min.js'
+            }
+        });
+        seajs.use(['main','shops'],function(list,shops){
+            /*add*/
+                list.s_3();
+                list.returnTop();
+
+            $('.add').click(function(){
+                shops.add($(this));
+            });
+            $('.desc').click(function(){
+                shops.desc($(this));
+            });
+            $('.sel_pro').click(function(){
+                shops.price();
+            });
+            $('.del').click(function(){
+                shops.del($(this));
+            });
+            $('.chooseAll').click(function(){
+                shops.chooseAll($(this));
+            });
+        })
+                </script>
+</body>
+
+</html>

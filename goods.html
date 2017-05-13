@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+     minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/goods.css">
+    <link rel="stylesheet" href="css/ac.css">
+
+
+</head>
+<body>
+        <div class="shop_wrap">
+            <header>
+                <div class="container-fluid lead">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 top1">
+                       <a href="second.html"><span class="glyphicon glyphicon-share-alt rotates"></span> </a> </div>
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 top2">
+                        <p>商品详情</p></div>
+                            <!--s-->
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  top3 text-right">
+                            <a href="">
+                        <span class="glyphicon glyphicon-shopping-cart">
+                            <em>10</em>
+                        </span>
+                            </a>
+                        </div>
+                        <!--e-->
+                    </div>
+                </div>
+            </header>
+            <!--中间部分-->
+            <main>
+                    <!--轮播图-->
+                <div class="shop_wrap">
+                    <header>
+                        <div id="lb" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#lb" data-slide-to="0" class="active"></li>
+                                <li data-target="#lb" data-slide-to="1"></li>
+                                <li data-target="#lb" data-slide-to="2"></li>
+                                <li data-target="#lb" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/ditan.jpg" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="img/erhuan.jpg" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="img/fork.jpg" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="img/f2studio.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <a href="#lb" class="left carousel-control" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a href="#lb" class="right carousel-control" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </header>
+                    </div>
+                <!--商品规格-->
+                <div class="goods_1">
+                    <p class="f_1">商品价格</p>
+                    <p class="f_2">默认价格</p>
+                    <!--goods-->
+                    <div class="pro_size clearfix">
+                        <div class="qty pull-left">
+                            <label class="pull-left">数量：</label>
+                            <span class="pull-left desc"><i class="glyphicon glyphicon-minus"></i></span>
+                            <input type="text" value="1" min="1" max="999" class="pull-left num"/>
+                            <span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+                        </div>
+                        <div class="stock pull-left">
+                            <b>999</b>件库存
+                        </div>
+                    </div>
+
+                    <!---->
+                </div>
+                <!--线下门店-->
+              <section class="so ">
+                <a href="" class="clearfix">
+                    <h3 class="pull-left">线下门店</h3>
+                    <span class="pull-right">
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                    </span>
+                </a>
+              </section>
+                <!--产品信息-->
+                <div class="goods_2">
+                    <p>商品信息</p>
+                    <div class="flower">
+                        <p><img  src="img/flower1.jpg"></p>
+                        <p><img src="img/flower2.jpg"></p>
+                        <p><img src="img/flower3.jpg"></p>
+                        <p><img src="img/code.jpg"></p>
+                        <p><img src="img/code1.jpg"></p>
+                    </div>
+                </div>
+                <!--说明-->
+                <div class="foots">
+                    <h3 class="a_title">价格说明</h3>
+                    <p class="title">划线价格</p>
+                    <p class="info">指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，
+                    <strong>并非原价</strong>，仅供参考。
+                    </p>
+                    <p class="title">未划线价格</p>
+                    <p class="info">
+                        “指商品的”
+                        <strong>实时标价</strong>
+                        ，不因表述的差异改变性质。具体成交价格根据商品参加活动，或会员使用优惠券、积分等发生变化，
+                        最终以订单结算页价格为准。
+                    </p>
+                    <p class="info">
+                    <p class="info">此说明仅当出现价格比较时有效，具体请参见《淘宝价格发布规范》。
+                    若商家单独对划线价格进行说明的，以商家的表述为准。</p>
+                    </p>
+                </div>
+            </main>
+           <!--footer-->
+            <footer>
+                <nav class="navbar navbar-fixed-bottom view_footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-6 view_price">
+                                <i>¥</i>800.00
+                            </div>
+                            <div class="col-xs-6 view_btn">
+                                <a href="shop_car.html">
+                                    <span>添加到购物车</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </footer>
+        </div>
+        <div class="return_top">
+            <a href="javascript:scrollTo(0,0)">
+                <span class="glyphicon glyphicon-arrow-up"></span>
+            </a>
+        </div>
+
+        <script type="text/javascript" src="js/canvas-nest.min.js"></script>
+        <canvas height="926" width="1920"
+                style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;" id="c_n1">
+        </canvas>
+ <script src="js/jquery-1.12.3.min.js"></script>
+ <script src="js/sea.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script>
+    seajs.config({
+        base:'./js',
+        alias:{
+            jquery:'jquery-1.12.3.min.js',
+            bs:'bootstrap.min.js'
+        }
+    });
+   /* seajs.use['main','goods'],function(list,goods){
+        list.index();
+        list.returnTop();
+        $(".add").click(function(){
+            goods.add($(this));
+        })
+        $(".desc").click(function(){
+            goods.desc($(this));
+        })
+    }*/
+    seajs.use(['main','goods'],function(list,view){
+        view.index();
+        list.returnTop();
+        $('.add').click(function(){
+            view.add($(this));
+        });
+        $('.desc').click(function(){
+            view.desc($(this));
+        })
+    });
+</script>
+
+</body>
+</html>
